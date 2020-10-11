@@ -9,8 +9,8 @@ function Nav() {
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="/portfolio" class="nav-link">Portfolio</a></li>
                 </ul>
             </div>
         </nav>

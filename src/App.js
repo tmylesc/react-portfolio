@@ -9,7 +9,7 @@ import Footer from './components/footer/index';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Nav />
         <Switch>
           <Route exact path="/" component={About} />

@@ -9,8 +9,8 @@ function Nav() {
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="/react-portfolio/" class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href="/react-portfolio/portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href={process.env.PUBLIC_URL + '/'} class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href={process.env.PUBLIC_URL + '/portfolio'} class="nav-link">Portfolio</a></li>
                 </ul>
             </div>
         </nav>

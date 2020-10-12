@@ -12,7 +12,7 @@ function Portfolio () {
                             <div class="row justify-content-between">
 
                             <div class="card col-md-5 col-sm-5 col-xs-12">
-                                <img src="../assets/images/bcard.jpg" class="card-img-top" alt="Screenshot of BCard Generator App"></img>
+                                <img src="https://raw.githubusercontent.com/tmylesc/react-portfolio/main/src/assets/images/bcard.jpg" class="card-img-top" alt="Screenshot of BCard Generator App"></img>
                                 <div class="card-body">
                                     <h6 class="h6-centered">B-Card Generator</h6>
                                     <a href="https://tmylesc.github.io/bcard/" target="_blank">Deployed App</a>
@@ -22,7 +22,7 @@ function Portfolio () {
                             </div>
 
                             <div class="card col-md-5 col-sm-5 col-xs-12">
-                                <img src="Assets/Images/weatherdashboard.png" class="card-img-top" alt="Screenshot of Weather Dashboard App"></img>
+                                <img src="https://raw.githubusercontent.com/tmylesc/react-portfolio/main/src/assets/images/weatherdashboard.png" class="card-img-top" alt="Screenshot of Weather Dashboard App"></img>
                                 <div class="card-body">
                                     <h6 class="h6-centered">Weather Dashboard</h6>
                                     <a href="https://tmylesc.github.io/homework6/" target="_blank">Deployed App</a>
@@ -32,7 +32,7 @@ function Portfolio () {
                             </div>
 
                             <div class="card col-md-5 col-sm-5 col-xs-12">
-                                <img src="Assets/Images/workday.png" class="card-img-top" alt="Screenshot of Workday Scheduler App"></img>
+                                <img src="https://raw.githubusercontent.com/tmylesc/react-portfolio/main/src/assets/images/workday.png" class="card-img-top" alt="Screenshot of Workday Scheduler App"></img>
                                 <div class="card-body">
                                     <h6 class="h6-centered">Workday Scheduler</h6>
                                     <a href="https://tmylesc.github.io/homework5/" target="_blank">Deployed App</a>

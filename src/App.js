@@ -12,7 +12,8 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Nav />
         <Switch>
-          <Route path="/" component={About} />
+          <Route exact path="/" component={About} />
+          <Route exact path="/react-portfolio/" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
         </Switch>

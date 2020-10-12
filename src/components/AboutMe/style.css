@@ -1,0 +1,93 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    /* background-image: url("background.jpg"); */
+    padding-bottom: 120px;
+  }
+  
+  h3 {
+    color: #343a40;
+  }
+  
+  
+  .navbar {
+    padding: 0px;
+    border-bottom: 1px solid #517A9B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+  }
+  
+  
+  .navbar-brand {
+    padding: 20px;
+    background-color: #517A9B;
+    color: white;
+    font-size: x-large;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link  {
+    color: white;
+    padding: 10px 20px 10px 10px;
+  }
+  
+  .aboutMe,
+  .portfolio,
+  .contact {
+    padding: 25px;
+  }
+  
+  .bioImage {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    background-color: white;
+    margin: 25px 0 25px 0;
+    width: fit-content;
+  }
+  
+  .card {
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+  }
+  
+  .card h6 {
+    text-align: center;
+    align-content: center;
+    background-color: #517A9B;
+    color: white;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .btn {
+    width: 100px;
+  }
+  
+  .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  footer {
+    border-top: 5px solid #517A9B;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  

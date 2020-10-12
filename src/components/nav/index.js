@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 
 function Nav() {
     return (
@@ -9,8 +11,8 @@ function Nav() {
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href={process.env.PUBLIC_URL + '/'} class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href={process.env.PUBLIC_URL + '/portfolio'} class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><Link to="/" class="nav-link">About Me</Link></li>
+                    <li class="nav-item"><Link to="/portfolio" class="nav-link">Portfolio</Link></li>
                 </ul>
             </div>
         </nav>

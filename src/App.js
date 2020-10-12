@@ -8,17 +8,16 @@ import Footer from './components/footer/index';
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
-      <div>
-        <Nav />
+    <div>
+      <Nav />
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path="/" component={About} />
+          <Route exact path="/" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
-        <Footer />
-      </div>
-    </Router>
-
+      </Router>
+            <Footer />
+    </div>
   );
 }
 

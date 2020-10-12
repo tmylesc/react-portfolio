@@ -8,11 +8,11 @@ import Footer from './components/footer/index';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={About} />
+          <Route path="/" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
         <Footer />
